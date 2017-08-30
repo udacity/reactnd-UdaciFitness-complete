@@ -23,6 +23,7 @@
     "react": "16.0.0-alpha.12",
     "react-native": "^0.47.0",
     "react-redux": "^5.0.6",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "udacifitness-calendar": "^11.0.0"
   }
 }
