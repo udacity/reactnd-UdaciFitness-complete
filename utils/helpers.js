@@ -202,7 +202,7 @@ export function setLocalNotification () {
               tomorrow.setHours(20)
               tomorrow.setMintutes(0)
 
-              Notifications.scheduleLocalNotificationsAsync(
+              Notifications.scheduleLocalNotificationAsync(
                 createNotification(),
                 {
                   time: tomorrow,
