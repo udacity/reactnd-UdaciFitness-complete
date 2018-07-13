@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { View, Text, ActivityIndicator, TouchableOpacity, StyleSheet, Animated } from 'react-native'
 import { Foundation } from '@expo/vector-icons'
 import { purple, white } from '../utils/colors'
+import { calculateDirection } from '../utils/helpers'
+import { Permissions, Location } from 'expo'
 
 export default class Live extends Component {
   state = {
