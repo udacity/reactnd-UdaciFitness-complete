@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { View, Text, ActivityIndicator } from 'react-native'
+import { calculateDirection } from '../utils/helpers'
+import { Permissions, Location } from 'expo'
 
 export default class Live extends Component {
   state = {
