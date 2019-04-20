@@ -34,6 +34,7 @@ class History extends Component {
             </Text>
           </View>
         : <TouchableOpacity
+            style={styles.item}
             onPress={() => console.log('Pressed!')}
           >
             <MetricCard date={formattedDate} metrics={metrics} />
